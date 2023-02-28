@@ -1,0 +1,7 @@
+/* для мобильной версии до 576*/
+@media (max-width: 576px){
+    .container{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
