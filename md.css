@@ -3,6 +3,8 @@
     .container{
         width: 100%;
         margin: 0 auto;
+        padding: 0 1vw;
+        min-width: 275px;
     }
     .nav{
         display: none;
@@ -65,5 +67,32 @@
     }
     .hamb-menu:hover .hamp-item-2{
         transform: scale(0)
+    }
+    .contact{
+    margin-right: 55px;
+    }
+    .promo h1{
+    max-width: 760px;
+    width: auto;
+    font-size: 2rem;
+    line-height: 2rem;
+    }
+    .promo h3{
+        font-style: 1.2rem;
+        line-height: 1.4rem;
+        text-align: center;
+        margin-top: 1rem;
+    }
+    .btn-cta{
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 12px;
+    height: 40px;
+    line-height: 40px;
+    font-style: 1.1rem;
+    margin-top: 1.4rem;
     }
 }
